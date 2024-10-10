@@ -69,7 +69,7 @@ Acesse o dashboard no navegador: http://localhost:8050
 
 ## Explicação do Código 🧑‍💻
 
-###Códigos IoT (ESP32)
+### Códigos IoT (ESP32)
 O código do ESP32 coleta dados dos sensores em tempo real e os envia para o broker MQTT. Aqui estão alguns detalhes do funcionamento do código:
 
 ### Leitura de Sensores:
@@ -77,7 +77,7 @@ O código do ESP32 coleta dados dos sensores em tempo real e os envia para o bro
 O código lê os dados dos sensores de temperatura, umidade e luminosidade e os armazena para serem enviados ao servidor.
 Exemplo: float temperature = dht.readTemperature(); MQTT.publish(TOPICO_PUBLISH_3, String(temperature).c_str());
 
-###Transmissão de Dados via MQTT:
+### Transmissão de Dados via MQTT:
 
 Após ler os sensores, o ESP32 utiliza o protocolo MQTT para enviar os dados para o servidor de telemetria.
 Exemplo: MQTT.publish(TOPICO_PUBLISH_2, String(luminosity).c_str());
@@ -90,7 +90,7 @@ O sistema exibe gráficos de temperatura, umidade e luminosidade em tempo real.
 Exemplo: trace_temp = go.Scatter(x=timestamps, y=temperature, mode='lines+markers', name='Temperatura')
 O painel também exibe informações como temperatura e umidade em cartões dinâmicos, atualizados em tempo real.
 
-###Histórico de Desempenho:
+### Histórico de Desempenho:
 
 Os produtores podem verificar o histórico de dados coletados durante as safras para ajustes estratégicos.
 
