@@ -62,9 +62,9 @@ Configure o broker MQTT (como Mosquitto) para garantir que os dados dos sensores
 
 ### Configuração do Front-End
 
-Clone o repositório: git clone https://github.com/seu-usuario/tech-alliance-vinhedos.git
+Clone o repositório: git clone https://github.com/BVP-projetos/CP5-EDGE-FIWARE-BVP/tree/main
 Instale as dependências do Python: pip install -r requirements.txt
-Execute o painel de controle: python app.py
+Execute o painel de controle: python app1_copy.py
 Acesse o dashboard no navegador: http://localhost:8050
 
 ## Explicação do Código 🧑‍💻
