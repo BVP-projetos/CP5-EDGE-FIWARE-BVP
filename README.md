@@ -1,6 +1,7 @@
 # BVP - CheckPoint 5 (FIWARE) - Sistema de Monitoramento Global de Vinherias🌿📡
 
 Link do projeto no Wokwi: https://wokwi.com/projects/409941061090441217
+Link do Vídeo: https://youtu.be/N_ayLLL2xRM?si=AWLJcMfOPwgejFet
 
 ## Visão Geral do Projeto 🌍
 O projeto BVP implementa uma solução de Internet das Coisas (IoT) voltada para o monitoramento em tempo real de vinherias. O sistema coleta dados importantes como temperatura, umidade, luminosidade, permitindo que os produtores monitorem e tomem decisões mais rápidas e precisas para melhorar a qualidade das uvas e otimizar o manejo do vinho. Esses dados são visualizados em um painel interativo, permitindo um acompanhamento detalhado das condições de cultivo ao longo do tempo, com um histórico que vai se atualizando.
