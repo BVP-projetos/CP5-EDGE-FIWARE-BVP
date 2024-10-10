@@ -7,8 +7,8 @@ from datetime import datetime
 import pytz
 
 # Constants for IP and port
-IP_ADDRESS = "44.195.44.28"
-PORT_STH = 8666
+IP_ADDRESS = "44.195.44.28" # Server Ip Address
+PORT_STH = 8666 # STH PORT
 DASH_HOST = "0.0.0.0"  # Set this to "0.0.0.0" to allow access from any IP
 
 # Function to get sensor data (luminosity, humidity, temperature) from the API
